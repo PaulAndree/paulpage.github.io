@@ -13,7 +13,8 @@ ollama serve
 ```
 - 3: Create a Modefile
 
-On top of llama3 we need to create a Modelfile in ollama for each task that the llm will perform. The Modelfile are a blueprint to define system parameters and set the "system instructions". Additionally, it is included in the Modelfile the difficulty of a question optimized with few shot learning, and all the examples included follow the bloom taxonomy. 
+On top of llama3 we need to create a Modelfile in ollama for each task that the llm will perform. 
+The Modelfile are a blueprint to define system parameters and set the "system instructions". Additionally, it is included in the Modelfile the difficulty of a question optimized with few shot learning, and all the examples included follow the bloom taxonomy. 
 
 Create a Modelfile for the Multiple Choice Question generator and the Open Question generator. Importantly, run this before using the script ollama_client. <mark></mark>
 
